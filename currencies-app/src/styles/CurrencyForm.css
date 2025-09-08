@@ -1,0 +1,54 @@
+.swap-icon {
+    max-width: 35px;
+    cursor: pointer;
+    transition: 0.4s;
+
+}
+
+.swap-icon:hover {
+    background-color: hsla(0, 0%, 78%, 0.42);
+
+}
+
+.currency-form {
+    background-color: rgba(254, 185, 8, 1);
+    padding: 3rem;
+    overflow: hidden;
+    transition: 0.6s ease-out;
+}
+
+.form-color {
+    border: 0px;
+}
+
+.convert-result {
+    cursor: pointer;
+    transition: 1s;
+
+}
+
+.convert-result:hover {
+    transform: scale(1.1);
+}
+
+.btn-convert {
+    border: 0px;
+    border-radius: 10px;
+    background-color:rgb(50, 8, 67, 0.7) ;
+    color: white;
+    transition: 1s;
+}
+
+.btn-convert:hover {
+    transform: scale(0.9);
+    background-color: rgb(50, 8, 67, 1);
+}
+
+.unselectable {
+  -webkit-touch-callout: none; 
+  -webkit-user-select: none;   
+  -khtml-user-select: none;    
+  -moz-user-select: none;      
+  -ms-user-select: none;       
+  user-select: none;          
+}
